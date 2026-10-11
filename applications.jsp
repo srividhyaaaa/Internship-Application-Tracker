@@ -55,6 +55,8 @@ body { padding: 0; }
 <a class="brand" href="analytics">InternTrack</a>
 <nav>
 <a class="nav-link" href="applications.jsp">Applications</a>
+<a class="nav-link" href="interviews">Interviews</a>
+<a class="nav-link" href="followups">Follow-ups</a>
 </nav>
 </header>
 
