@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    min-height: 100vh;
+    padding: 30px 16px;
+}
+.auth-card {
+    background: white;
+    width: 100%;
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+h1 {
+    color: #2563eb;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subtitle {
+    color: #64748b;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 16px 0 7px;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+}
+input:focus {
+    outline: 2px solid #93c5fd;
+    border-color: #2563eb;
+}
+button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background: #1d4ed8;
+}
+.switch-link {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 14px;
+}
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.error {
+    color: #b91c1c;
+    background: #fee2e2;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 12px 0;
+    font-size: 14px;
+}
+.success {
+    color: #166534;
+    background: #dcfce7;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 12px 0;
+    font-size: 14px;
+}
+.dashboard {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.dashboard-header h1 {
+    text-align: left;
+}
+.dashboard-header p {
+    color: #64748b;
+}
+.logout-button {
+    width: auto;
+    margin-top: 0;
+    padding: 10px 22px;
+    background: #dc2626;
+}
+.logout-button:hover {
+    background: #b91c1c;
+}
+.welcome-card {
+    margin-top: 25px;
+    padding: 35px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.welcome-card h2 {
+    margin-bottom: 15px;
+    color: #1e293b;
+}
+.welcome-card p {
+    margin-top: 12px;
+    color: #64748b;
+    line-height: 1.6;
+}
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 24px;
+        margin: 15px auto;
+    }
+    .welcome-card {
+        padding: 24px;
+    }
+}
